@@ -88,3 +88,58 @@ font-size: large;
     box-shadow: 0 0 8px;
     ;
 }
+
+
+
+
+form,form{
+    background-color: greenyellow;
+
+}
+
+
+
+
+/*ici jai placer un formulaire*/
+
+
+body,form{
+    text-align:center;
+    border: radius 2px;px;
+
+}
+
+      
+        /*display inline signifie que l'orsque le */
+#div1{    
+    display: inline;
+    
+}
+
+#div2{
+    display: inline;
+}
+
+#div3{
+    display: inline;
+}
+
+
+
+
+
+
+        /*padding permet de modifier la taille d'input*/
+        /*input type date donc je cible l'input date avec la valeur padding est j'ai changer sa hauteur intérieur*/
+input[type=date],[type=text],[type=submit],[type=email]{
+            padding: 3px;  /*pading c'est la hauteur interne */
+            margin: 10px; /* le margin modifie la hauteur extérieur  */
+            border: 2px;
+            border-radius: 5px;
+            border: solid black; /*c'est tout sipmelement la couleur de la bordure*/
+            margin: bottom 15px;
+            
+
+        }
+
+
